@@ -5,7 +5,7 @@
 
 ### Data Cleaning  
 
-This notebook focuses on cleaning and preprocessing data for better analysis. Below are the steps we followed:
+These notebooks focus on cleaning and preprocessing data for better analysis. Below are the steps we followed for each dataset:
 
 ---
 
@@ -32,5 +32,3 @@ This notebook focuses on cleaning and preprocessing data for better analysis. Be
 
 4. **Exporting the Cleaned Dataset**  
    - Saved the cleaned dataset to a file for future use.
-
----
