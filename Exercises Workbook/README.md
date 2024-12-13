@@ -3,67 +3,7 @@
 
 ---
 
-## 1. Raw Dataset  
-
-This folder contains raw datasets for 10 companies.
-
----
-
-### Key Information
-
-1. Each company's data is stored in a `.csv` file.
-2. These files are the starting point for cleaning and preparing the data.
-3. We will use Python and the `pandas` library to read these files and clean the data.
-4. We then save and export cleaned .csv files for each company's dataset to another folder.
-
----
-
-## 2. Data Cleaning  
-
-These notebooks focus on cleaning and preprocessing data for better analysis. Below are the steps we followed for each dataset:
-
----
-
-### Key Steps  
-
-1. **Importing Dataset**  
-   - Loaded the raw dataset into the notebook using `pandas`.
-
-2. **Inspecting the DataFrame**  
-   - Examined the structure of the data using methods like `.head()`, `.info()`, and `.describe()`.  
-   - Gained insights into the data types, column values, and overall quality of the dataset.
-
-3. **Cleaning the Dataset**  
-   - **a) Sorting the Dataset**  
-     - Organized the data based on specific columns for easier analysis.  
-   - **b) Identifying and Removing Duplicate Rows**  
-     - Checked for duplicate entries and removed them to ensure data accuracy.  
-   - **c) Visualizing the Dataset to Identify Outliers**  
-     - Created visualizations to detect potential outliers in the dataset.  
-   - **d) Removing Outliers**  
-     - Applied techniques to filter out extreme values that could skew the analysis.  
-   - **e) Imputing Missing Values**  
-     - Handled missing data using appropriate imputation strategies.
-
-4. **Exporting the Cleaned Dataset**  
-   - Saved the cleaned dataset to a file for future use.
-
----
-
-## 3. Cleaned Datasets  
-
-This folder contains the cleaned and processed data for 10 companies.
-
----
-
-### Key Information
-
-1. The raw datasets were cleaned using Python and saved here as `.csv` files.
-2. We will use these cleaned files to solve all the exercises for each dataset.
-
----
-
-## 4. Exercises  
+### Exercises  
 
 This Workbook is focused on exploring, analyzing, and visualizing financial datasets using Python. The workbook includes various visualizations and statistical analyses to understand trends, spreads, and relationships between variables for different companies.
 
@@ -126,4 +66,7 @@ Key insights derived from the visualizations:
     - Printed the structure of the combined dataset, ensuring proper alignment and handling of missing values.
 10. **Exercise 10: Price Spreads and Analysis**
     - Calculated the daily spread (High - Low) for each company.
+    - Computed the average spread for each company and visualized it in a chart.
+    - Provided a justification for the chart selection and interpreted which companies exhibit the largest spreads and the reasons behind it.
+   
 ---
